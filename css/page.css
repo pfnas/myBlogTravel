@@ -666,8 +666,8 @@ input[type=radio] {
 
 .photos-mini {
 
-
-    padding-top: 66.67%;
+    padding-top: 75%;
+    /* padding-top: 66.67%; */
     /* il s'agit du ratio pour le responsive*/
     display: flex;
     justify-content: center;
