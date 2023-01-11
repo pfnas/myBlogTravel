@@ -9,6 +9,12 @@ h2 {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: #000
+}
+
+
 .logo {
     font-family: Winterland, sans-serif;
     text-transform: capitalize;
