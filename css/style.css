@@ -27,6 +27,7 @@ a {
     src: url(../font-winterland/Winterland.otf);
 }
 
+#home,
 .logo {
     font-family: Winterland, sans-serif;
     text-transform: capitalize;
@@ -213,13 +214,13 @@ a {
     object-position: right;
 }
 
-/* ..........////Food category///........... */
+/* ..........////travel category///........... */
 
-#food {
+#travel {
     padding: 5rem 0 10rem 0;
 }
 
-#food h2 {
+#travel h2 {
     text-align: center;
     font-size: 2.5rem;
     font-weight: 400;
@@ -228,12 +229,12 @@ a {
     color: #555;
 }
 
-.food-container {
+.travel-container {
     display: flex;
     justify-content: space-between;
 }
 
-.food-container img {
+.travel-container img {
     display: block;
     width: 100%;
     margin: auto;
@@ -294,22 +295,22 @@ a {
     top: 40%;
 }
 
-/* .........../Food Menu/............ */
+/* .........../travel Menu/............ */
 
-.food-menu-heading {
+.travel-menu-heading {
     text-align: center;
     font-size: 3.4rem;
     font-weight: 400;
     color: #666;
 }
 
-.food-menu-container {
+.travel-menu-container {
     display: flex;
     flex-wrap: wrap;
     padding: 50px 0px 30px 0px;
 }
 
-.food-menu-container img {
+.travel-menu-container img {
     display: block;
     width: 250px;
     height: 250px;
@@ -318,14 +319,14 @@ a {
     object-position: center;
 }
 
-.food-menu-item {
+.travel-menu-item {
     display: flex;
     flex: 1 1 600px;
     justify-content: space-evenly;
     margin-bottom: 3rem;
 }
 
-.food-description {
+.travel-description {
     margin: auto 1.5rem;
 }
 
@@ -335,20 +336,20 @@ a {
     color: #444;
 }
 
-.food-description p {
+.travel-description p {
     font-size: 1.4rem;
     color: #555;
     font-weight: 500;
 }
 
-.food-description .food-price {
+.travel-description .travel-price {
     color: #117964;
     font-weight: 700;
 }
 
 /* ........./ Testimonial /.......... */
 
-#testimonials {
+/* #testimonials {
     padding: 5rem 0;
     background: rgba(243, 243, 243);
 }
@@ -389,7 +390,7 @@ a {
     object-position: center;
     border-radius: 50%;
     margin: auto;
-}
+} */
 
 /* ........ Contact Us........... */
 
@@ -550,12 +551,12 @@ a {
         font-weight: 500;
     }
 
-    /* .logo {
+    .logo {
         position: absolute;
         top: 5px;
         right: 15px;
         font-size: 2rem;
-    } */
+    }
 
     .navbar-container input[type="checkbox"]:checked~.menu-items {
         transform: translateX(0);
@@ -573,18 +574,18 @@ a {
         transform: rotate(-35deg);
     }
 
-    /* ......./ food /......... */
+    /* ......./ travel /......... */
 
-    .food-container {
+    .travel-container {
         flex-direction: column;
         align-items: stretch;
     }
 
-    .food-type:not(:last-child) {
+    .travel-type:not(:last-child) {
         margin-bottom: 3rem;
     }
 
-    .food-type {
+    .travel-type {
         box-shadow: 5px 5px 10px 0 #aaa;
     }
 
@@ -607,11 +608,11 @@ a {
         text-align: center;
     }
 
-    .food-menu-container img {
+    .travel-menu-container img {
         margin: auto;
     }
 
-    .food-menu-item {
+    .travel-menu-item {
         flex-direction: column;
         text-align: center;
     }
@@ -663,5 +664,8 @@ a {
     }
 }
 
+/* 
 /*------------------------contact html--------------------------*/
 /*---------------------------------------------------------------*/
+/*------------------------------------------------------------*/
+/*-------------------------rajout---------------------------------*/
