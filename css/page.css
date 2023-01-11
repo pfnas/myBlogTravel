@@ -42,6 +42,12 @@ a {
     text-decoration: none;
 }
 
+p,
+h2,
+.display_flag {
+    padding: 25px;
+}
+
 /*----------------display flag-----------------*/
 .flag {
     display: flex;
@@ -49,8 +55,7 @@ a {
 }
 
 .display_flag {
-    width: 5rem;
-
+    width: 15rem;
 }
 
 /* ///////////..utility classes../////////// */
@@ -196,6 +201,7 @@ a {
 
 #about h2 {
     font-size: 2.3rem;
+    margin-bottom: 25px;
 }
 
 #about p {
@@ -214,6 +220,11 @@ a {
     padding: 30px;
     transform: translateX(150%);
     animation: about-img-animation 1s ease-in-out forwards;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
 
 @keyframes about-img-animation {
@@ -245,6 +256,7 @@ a {
     margin: auto;
     object-fit: cover;
     object-position: right;
+    margin: 10px;
 }
 
 /* ..........////travel category///........... */

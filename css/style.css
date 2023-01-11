@@ -261,9 +261,12 @@ a {
     transition: all 0.3s ease-in-out 0.1s;
 }
 
+
+
 .img-content h3 {
+    padding-top: 2.5rem;
     color: #fff;
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 
 .img-content a {
