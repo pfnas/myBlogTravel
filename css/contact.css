@@ -655,4 +655,10 @@ img {
 }
 
 /*------------------------------------------*/
-@media(max-width: 500px) {}
+@media(max-width: 500px) {
+    .form-container {
+        padding: 1rem;
+        width: 50%;
+        margin: 50px auto;
+    }
+}
