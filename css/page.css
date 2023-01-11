@@ -42,6 +42,17 @@ a {
     text-decoration: none;
 }
 
+/*----------------display flag-----------------*/
+.flag {
+    display: flex;
+    justify-content: center;
+}
+
+.display_flag {
+    width: 5rem;
+
+}
+
 /* ///////////..utility classes../////////// */
 
 .container {
@@ -553,6 +564,8 @@ a {
         transform: rotate(-35deg);
     }
 
+
+
     /* ......./ travel /......... */
 
     .travel-container {
@@ -875,9 +888,9 @@ img {
 }
 
 /*---------css page contact-image--------------*/
-.contact-container {
+/* .contact-container {
     position: relative;
-}
+} */
 
 
 /*----------------------------------------------*/
@@ -913,7 +926,6 @@ img {
     img {
         width: 100%;
         max-height: 240px;
-
     }
 
     .logo {
