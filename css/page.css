@@ -21,6 +21,15 @@ a {
     font-size: 1.5em;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    font-family: Winterland, sans serif;
+    text-transform: capitalize;
+}
+
+
 *,
 *::after,
 *::before {

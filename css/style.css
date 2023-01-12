@@ -34,7 +34,14 @@ a {
     font-family: Winterland, sans-serif;
     text-transform: capitalize;
     font-size: 1.5em;
+}
 
+h1,
+h2,
+h3,
+h4 {
+    font-family: Winterland, sans serif;
+    text-transform: capitalize;
 }
 
 /* ///////////..utility classes../////////// */
@@ -352,9 +359,9 @@ a {
     font-weight: 700;
 }
 
-/* ........./ Testimonial /.......... */
+/* ........./ Testimonial /..........
 
-/* #testimonials {
+#testimonials {
     padding: 5rem 0;
     background: rgba(243, 243, 243);
 }

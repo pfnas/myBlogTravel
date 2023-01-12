@@ -21,6 +21,15 @@ a {
     font-size: 1.5em;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    font-family: Winterland, sans serif;
+    text-transform: capitalize;
+}
+
+
 *,
 *::after,
 *::before {
@@ -93,12 +102,17 @@ a {
 .btn-primary:hover {
     background: #117964;
     transition: background 0.3s ease-in-out;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    -ms-transition: background 0.3s ease-in-out;
+    -o-transition: background 0.3s ease-in-out;
 }
 
 
 .menu-items a:hover {
     color: #117964;
     transition: color 0.3s ease-in-out;
+
 }
 
 .logo {
@@ -427,7 +441,7 @@ a {
 }
 
 .form-container h2 {
-    font-size: 2.7rem;
+    font-size: 1.7rem;
     font-weight: 500;
     color: #444;
     margin-bottom: 1rem;
@@ -450,9 +464,6 @@ a {
 /* ......../ media query /.......... */
 
 @media (max-width: 768px) {
-    .navbar {
-        opacity: 0.95;
-    }
 
     .navbar-container input[type="checkbox"],
     .navbar-container .hamburger-lines {
@@ -662,9 +673,7 @@ img {
 /* ......../ media query /.......... */
 
 @media (max-width: 768px) {
-    .navbar {
-        opacity: 0.95;
-    }
+
 
     .navbar-container input[type="checkbox"],
     .navbar-container .hamburger-lines {
@@ -743,12 +752,6 @@ img {
         font-weight: 500;
     }
 
-    /* .logo {
-        position: absolute;
-        top: 5px;
-        right: 15px;
-        font-size: 2rem;
-    } */
 
     .navbar-container input[type="checkbox"]:checked~.menu-items {
         transform: translateX(0);
@@ -823,15 +826,7 @@ img {
         margin: 3rem auto;
     }
 
-    /* .logo {
-        position: absolute;
-        top: 06px;
-        right: 15px;
-        font-size: 3rem;
-        object-fit: contain;
-        max-height: 250px;
-        width: 100%;
-    } */
+
 
     .navbar .menu-items li {
         margin-bottom: 2.5rem;
