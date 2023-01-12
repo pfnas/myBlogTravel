@@ -945,3 +945,16 @@ img {
         top: 17px;
     }
 }
+
+span a {
+    font-size: large;
+
+}
+
+span a:hover {
+    text-transform: scale(1.95);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    color: red;
+
+}
