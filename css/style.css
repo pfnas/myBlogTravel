@@ -37,11 +37,13 @@ a {
 }
 
 h1,
-h2,
-h3,
-h4 {
+h2 {
     font-family: Winterland, sans serif;
     text-transform: capitalize;
+}
+
+.travel-titile {
+    padding: 1.5rem 0;
 }
 
 /* ///////////..utility classes../////////// */
@@ -340,6 +342,7 @@ h4 {
 
 .travel-description {
     margin: auto 1.5rem;
+    padding-top: 1.5re;
 }
 
 .font-title {
