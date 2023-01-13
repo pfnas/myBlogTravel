@@ -7,13 +7,13 @@
 
 h2 {
     text-align: center;
+    margin-top: 2.5rem;
 }
 
 a {
     text-decoration: none;
     color: #000
 }
-
 
 .logo {
     font-family: Winterland, sans-serif;
@@ -22,9 +22,7 @@ a {
 }
 
 h1,
-h2,
-h3,
-h4 {
+h2 {
     font-family: Winterland, sans serif;
     text-transform: capitalize;
 }
@@ -121,6 +119,12 @@ h4 {
     margin-bottom: 0.5rem;
 }
 
+#contend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* ........ Contact Us........... */
 
 #contact {
@@ -181,15 +185,6 @@ h4 {
 
 .form-container a {
     font-size: 1.3rem;
-}
-
-#footer h2 {
-    text-align: center;
-    font-size: 1.8rem;
-    padding: 2.6rem;
-    font-weight: 500;
-    color: #fff;
-    background: rgb(159, 41, 41);
 }
 
 /* ......../ media query /.......... */
@@ -301,22 +296,6 @@ h4 {
 
     /* ......./ travel /......... */
 
-    .travel-container {
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .travel-type:not(:last-child) {
-        margin-bottom: 3rem;
-    }
-
-    .travel-type {
-        box-shadow: 5px 5px 10px 0 #aaa;
-    }
-
-    .img-container {
-        margin: 0;
-    }
 }
 
 @media (max-width: 500px) {
@@ -326,20 +305,6 @@ h4 {
 
     .navbar .menu-items li {
         font-size: 1.6rem;
-    }
-
-    .testimonial-container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .travel-menu-container img {
-        margin: auto;
-    }
-
-    .travel-menu-item {
-        flex-direction: column;
-        text-align: center;
     }
 
     .form-container {
@@ -356,12 +321,12 @@ h4 {
         margin: 3rem auto;
     }
 
-    .logo {
+    /* .logo {
         position: absolute;
         top: 06px;
         right: 15px;
         font-size: 3rem;
-    }
+    } */
 
     .navbar .menu-items li {
         margin-bottom: 2.5rem;
@@ -380,11 +345,6 @@ h4 {
     }
 }
 
-@media (orientation: landscape) and (max-height: 500px) {
-    .showcase-area {
-        height: 50vmax;
-    }
-}
 
 /* ........ Contact Us........... */
 
@@ -445,7 +405,7 @@ h4 {
     font-weight: 500;
     color: #444;
     margin-bottom: 1rem;
-    margin-top: -1.2rem;
+    margin-top: 2.5rem;
 }
 
 .form-container a {
@@ -565,71 +525,8 @@ h4 {
         transform: rotate(-35deg);
     }
 
-    /* ......./ travel /......... */
-
-    .travel-container {
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .travel-type:not(:last-child) {
-        margin-bottom: 3rem;
-    }
-
-    .travel-type {
-        box-shadow: 5px 5px 10px 0 #aaa;
-    }
-
-    .img-container {
-        margin: 0;
-    }
-}
-
-
-
-@media (orientation: landscape) and (max-height: 500px) {
-    .showcase-area {
-        height: 50vmax;
-    }
-}
-
-/*-----------------------------------carousel pictures---------------------*/
-
-
-* {
-    box-sizing: border-box
-}
-
-img {
-    width: 100%;
-    /* max-height: 550px; */
-    object-fit: cover;
-}
-
-.illustration-country {
-    width: 100%;
-    object-fit: cover;
-    max-height: 500px;
-}
-
-input[type=radio] {
-
-    position: absolute;
-    left: -9999px
-}
-
-/*on cache tous les input*/
-
-.slider-input label {
-
-    cursor: pointer
-        /*on pointe tous les labels*/
 
 }
-
-/* * {
-    margin: 0;
-} */
 
 /*--superposition images-------------*/
 
@@ -673,7 +570,6 @@ img {
 /* ......../ media query /.......... */
 
 @media (max-width: 768px) {
-
 
     .navbar-container input[type="checkbox"],
     .navbar-container .hamburger-lines {
@@ -769,24 +665,6 @@ img {
         transform: rotate(-35deg);
     }
 
-    /* ......./ travel /......... */
-
-    .travel-container {
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .travel-type:not(:last-child) {
-        margin-bottom: 3rem;
-    }
-
-    .travel-type {
-        box-shadow: 5px 5px 10px 0 #aaa;
-    }
-
-    .img-container {
-        margin: 0;
-    }
 }
 
 @media (max-width: 500px) {
@@ -796,20 +674,6 @@ img {
 
     .navbar .menu-items li {
         font-size: 1.6rem;
-    }
-
-    .testimonial-container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .travel-menu-container img {
-        margin: auto;
-    }
-
-    .travel-menu-item {
-        flex-direction: column;
-        text-align: center;
     }
 
     .form-container {
@@ -825,8 +689,6 @@ img {
         width: 90%;
         margin: 3rem auto;
     }
-
-
 
     .navbar .menu-items li {
         margin-bottom: 2.5rem;
@@ -844,13 +706,3 @@ img {
         font-size: 0.7rem;
     }
 }
-
-@media (orientation: landscape) and (max-height: 500px) {
-    .showcase-area {
-        height: 50vmax;
-    }
-}
-
-/* 
-/*------------------------contact html--------------------------*/
-/*---------------------------------------------------------------*/
