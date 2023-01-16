@@ -123,6 +123,8 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* width: 50%; */
+    overflow: hidden;
 }
 
 /* ......../ media query /.......... */
@@ -349,10 +351,15 @@ h2 {
 .form-container a {
 
     font-size: 0.9rem;
-    margin: 0 30%;
-    padding: 1rem;
+    margin: 0 20%;
+    padding: 0.5em;
     margin-top: 1.5rem;
     text-align: center;
+    display: block;
+}
+
+#text_comment {
+    width: 100%;
 }
 
 #footer h2 {
