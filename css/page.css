@@ -23,12 +23,10 @@ a {
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
     font-family: Winterland, sans serif;
     text-transform: capitalize;
 }
-
 
 *,
 *::after,
@@ -210,7 +208,12 @@ h2,
 
 #about h2 {
     font-size: 2.3rem;
-    margin-bottom: 25px;
+    margin-top: 45px;
+}
+
+#about h3 {
+    font-size: 2rem;
+    margin-top: 45px;
 }
 
 #about p {
@@ -222,7 +225,15 @@ h2,
     font-size: 1.2rem;
     color: #666;
     font-weight: 600;
+    background: #fff;
 }
+
+.card {
+    background-color: #d6d6d6;
+    display: contents;
+    box-shadow: #000;
+}
+
 
 .about-img {
     flex: 1 1 400px;
@@ -231,7 +242,7 @@ h2,
     animation: about-img-animation 1s ease-in-out forwards;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: 10px;
 }
@@ -261,7 +272,7 @@ h2,
 .about-img img {
     display: block;
     /* height: 400px; */
-    max-width: 100%;
+    /* max-width: 100%; */
     margin: auto;
     object-fit: cover;
     object-position: right;
@@ -779,11 +790,6 @@ input[type=radio] {
     text-align: center;
 }
 
-.world_nomad_games {
-    background-image: url(../Assets/Kirghistan/kirghizistan-carte-768x570);
-    padding-top: 1.5rem;
-}
-
 /*----------------carousel landscape Kirghistan------------------------*/
 
 
@@ -956,7 +962,8 @@ img {
 }
 
 span a {
-    font-size: large;
+    font-style: italic;
+    font-weight: 900;
 
 }
 
