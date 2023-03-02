@@ -37,6 +37,16 @@ h2 {
     margin: 0;
 }
 
+#btn {
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+}
+
 /* desktop mode............/// */
 
 .navbar input[type="checkbox"],
@@ -250,11 +260,14 @@ h2 {
 
     .form-container {
         width: 90%;
+        display: flex;
+        justify-content: center;
     }
 
     .contact-container {
         display: flex;
         flex-direction: column;
+        /* justify-content: center; */
     }
 
     .contact-img {
