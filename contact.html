@@ -44,12 +44,16 @@
 
             <div class="form-container">
                 <h2>Contact Us</h2>
-                <input type="text" placeholder="Your Name" />
-                <input type="email" placeholder="E-Mail" />
-                <textarea id="text_comment" cols="30" rows="6" placeholder="Type Your Message"></textarea>
-                <a href="#" class="btn btn-primary">Validation
+                <form action="https://formsubmit.co/80497453028bf8aea0c687a80fe2c9f1" method="POST">
+                    <input type="text" placeholder="Your Name" name="name" required />
+                    <input type="text" placeholder="Your first Name" name="first">
+                    <input type="email" placeholder="E-Mail" name="email" required />
+                    <textarea id="text_comment" cols="30" rows="6" placeholder="Type Your Message" name="message"
+                        required></textarea>
+                    <!-- <a href="#" class="btn btn-primary">Validation</a> -->
+                    <button type="submit">Envoyer</button>
+                </form>
 
-                </a>
             </div>
         </div>
     </section>

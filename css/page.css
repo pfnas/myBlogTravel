@@ -705,6 +705,13 @@ img {
     max-height: 500px;
 }
 
+/*------------------------------------------------Slider---------------------------------------------
+-----------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------*/
+section {
+    margin: 25px;
+}
+
 input[type=radio] {
 
     position: absolute;
@@ -713,15 +720,14 @@ input[type=radio] {
 
 /*on cache tous les input*/
 
-.slider-input label {
+.slider-input label,
+.slider-input2 label {
 
     cursor: pointer
-        /*on pointe tous les labels*/
-
 }
 
 .slider-input,
-.slider-input-landscape {
+.slider-input2 {
 
     overflow: hidden;
     position: relative;
@@ -730,43 +736,53 @@ input[type=radio] {
 }
 
 
-.photos-mini {
+.photos-mini,
+.photos-mini2 {
 
     padding-top: 75%;
-    /* padding-top: 66.67%; */
+
     /* il s'agit du ratio pour le responsive*/
     display: flex;
     justify-content: center;
 
 }
 
-.miniature {
-
+/*les photos occupent la même place selon la largeur du conteneur*/
+.miniature,
+.miniature2 {
     flex: 1;
-    /*les photos occupent la même place selon la largeur du conteneur*/
     padding: .25rem;
 
 }
 
-
-.fenetre {
-    /*grande photo*/
-
+/*grande photo*/
+.fenetre,
+.fenetre2 {
     position: absolute;
     top: 0;
     left: 0;
     transition: transform .6s, opacity .6s;
     transform: translatex(-100%);
-    opacity: 0
+    opacity: 0;
+    -webkit-transform: translatex(-100%);
+    -moz-transform: translatex(-100%);
+    -ms-transform: translatex(-100%);
+    -o-transform: translatex(-100%);
+    -webkit-transition: transform .6s, opacity .6s;
+    -moz-transition: transform .6s, opacity .6s;
+    -ms-transition: transform .6s, opacity .6s;
+    -o-transition: transform .6s, opacity .6s;
 }
 
-.fen:checked~.fenetre {
+.fen:checked~.fenetre,
+.fen2:checked~.fenetre2 {
 
     transform: translatex(0%);
     opacity: 1
 }
 
-.figcaption {
+.figcaption,
+.figcaption2 {
     /*optionnel*/
 
     position: absolute;
@@ -781,7 +797,8 @@ input[type=radio] {
     background: hsla(0, 0%, 0%, .8)
 }
 
-.fen:checked~.figcaption {
+.fen:checked~.figcaption,
+.fen2:checked~.figcaption2 {
 
     opacity: 1
 }
@@ -834,6 +851,12 @@ img {
     position: relative;
     text-align: center;
     min-width: 800px;
+}
+
+@media(max-width: 800px) {
+    .description {
+        min-width: 100%;
+    }
 }
 
 .description span {
@@ -914,10 +937,6 @@ img {
 
 }
 
-/*---------css page contact-image--------------*/
-/* .contact-container {
-    position: relative;
-} */
 
 
 /*----------------------------------------------*/
@@ -960,6 +979,12 @@ img {
         top: 17px;
     }
 }
+
+/* .description {
+
+
+    min-width: 525px;
+} */
 
 span a {
     font-style: italic;
