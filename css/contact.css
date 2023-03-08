@@ -260,8 +260,8 @@ h2 {
 
     .form-container {
         width: 90%;
-        display: flex;
-        justify-content: center;
+        /* display: flex;
+        justify-content: center; */
     }
 
     .contact-container {
