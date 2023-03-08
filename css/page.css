@@ -750,7 +750,7 @@ input[type=radio] {
     /* il s'agit du ratio pour le responsive*/
     display: flex;
     justify-content: center;
-    border: 2px solid white;
+    /* border: 2px solid white; */
 
 }
 
