@@ -669,6 +669,10 @@ h2,
         font-size: 1.8rem;
         font-weight: 500;
     }
+
+    .about-text {
+        padding: 0;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
